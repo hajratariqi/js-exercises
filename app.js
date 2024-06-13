@@ -79,6 +79,9 @@ else{
         console.log(internationalTime + " is equal to 12:00");
     }
 
+    else if (internationalTime <= 12) {
+        console.log(internationalTime , "hour");
+    }
 
     else if (internationalTime <= 24 && internationalTime >= 0) {
         console.log(internationalTime - localTime);
