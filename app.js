@@ -61,38 +61,55 @@
 // console.log(greeting);
 
 // takes time as input from user in 24 hours clock format like: 1900 = 7pm. Implement the following case using if, else & else if statements
-var internationalTime = prompt("Please Enter hour");
-var localTime = 12;
+// var internationalTime = prompt("Please Enter hour");
+// var localTime = 12;
 
 
-if (internationalTime === "") {
-    console.log("Please enter a valid numeric value");
-}
-else{
-    internationalTime = Number(internationalTime);
+// if (internationalTime === "") {
+//     console.log("Please enter a valid numeric value");
+// }
+// else{
+//     internationalTime = Number(internationalTime);
     
-    if (internationalTime < 0) {
-        console.log("this is not a valid time");
-    }
+//     if (internationalTime < 0) {
+//         console.log("this is not a valid time");
+//     }
 
-    else if (internationalTime == 0) {
-        console.log(internationalTime + " is equal to 12:00");
-    }
+//     else if (internationalTime == 0) {
+//         console.log(internationalTime + " is equal to 12:00");
+//     }
 
-    else if (internationalTime <= 12) {
-        console.log(internationalTime , "hour");
-    }
+//     else if (internationalTime <= 12) {
+//         console.log(internationalTime , "hour");
+//     }
 
-    else if (internationalTime <= 24 && internationalTime >= 0) {
-        console.log(internationalTime - localTime);
-    }
+//     else if (internationalTime <= 24 && internationalTime >= 0) {
+//         console.log(internationalTime - localTime);
+//     }
 
-    else if (internationalTime <= 2400 && internationalTime >= 0){
-        console.log(internationalTime - 1200);
-    }
+//     else if (internationalTime <= 2400 && internationalTime >= 0){
+//         console.log(internationalTime - 1200);
+//     }
 
     
-    else {
-        console.log("invalid input");
-    }
-}
+//     else {
+//         console.log("invalid input");
+//     }
+// }
+
+
+
+
+
+// IF...ELSE & ELSE IF STATEMENT, TESTING SET OF CONDITION | JAVASCRIPT
+// var time = +prompt ("enter time");
+
+// if(time >= 0 && time <= 1200){
+//     console.log("Good Morning")
+// }
+// else if(time >= 1300 && time <= 1800){
+//     console.log("Good Afternoon")
+// }
+// else{
+//     console.log("Good night")
+// }
