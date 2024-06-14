@@ -127,15 +127,15 @@
 
 
 // palindrome word
-var userName = prompt("Enter plalindrome word")
-var result = ""
-for(var i = userName.length -1; i >= 0; i--){
-    result += userName[i]
-}
+// var userName = prompt("Enter plalindrome word")
+// var result = ""
+// for(var i = userName.length -1; i >= 0; i--){
+//     result += userName[i]
+// }
 
-if(userName == result){
-    console.log("plalindrome word" , result); 
-}else {
-    console.log("NOT plalindrome word", result);
-}
+// if(userName == result){
+//     console.log("plalindrome word" , result); 
+// }else {
+//     console.log("NOT plalindrome word", result);
+// }
 
